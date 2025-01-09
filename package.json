@@ -1,0 +1,16 @@
+{
+  "name": "@flessner/css",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./build/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "unocss": "^0.65.4"
+  }
+}
