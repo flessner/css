@@ -23,7 +23,7 @@ export default defineConfig({
 ```
 
 ## Features
-- `presetWind`: TailwindCSS-style classes as a base
+- `presetWind`: Tailwind-style classes as a base
 - `unocss-preset-block`: Blocks non-standard classes (e.g. `m--4`)
 
 Additionally it includes rules and shortcuts after my personal tastes.
