@@ -1,6 +1,6 @@
 {
   "name": "@flessner/css",
-  "version": "0.1.4",
+  "version": "0.2.1",
   "type": "module",
   "main": "./build/main.js",
   "repository": "https://github.com/flessner/css",
