@@ -8,7 +8,7 @@ It is mainly used by me to quickly scaffold new projects with my preferred atomi
 
 ## Installation
 ```bash
-npm i @flessner/unocss-preset
+npm i -D @flessner/unocss-preset
 ```
 
 ```ts
@@ -24,5 +24,7 @@ export default defineConfig({
 ```
 
 ## Features
-Out of the box it uses the `presetWind` from UnoCSS that includes TailwindCSS-style classes.
+- `presetWind`: TailwindCSS-style classes as a base
+- `unocss-preset-block`: Blocks non-standard classes (e.g. `m--4`)
+
 Additionally it includes rules and shortcuts after my personal tastes.

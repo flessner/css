@@ -1,5 +1,6 @@
 import { defineConfig, definePreset } from 'unocss'
 import { presetWind } from 'unocss'
+import { presetBlock } from 'unocss-preset-block'
 
 function resolveColor(x: string) {
   return `var(--color-${x}, var(--${x}))`
@@ -13,6 +14,7 @@ export const presetFlessner = definePreset(() => {
   return {
     presets: [
       presetWind(),
+      presetBlock(),
     ],
     name: '@flessner/unocss-preset',
     rules: [
