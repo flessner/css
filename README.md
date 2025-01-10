@@ -7,10 +7,9 @@ This is my personal [UnoCSS](https://unocss.dev/) preset.
 It is mainly used by me to quickly scaffold new projects with my preferred atomic CSS settings.
 
 ## Installation
-```
+```bash
 npm i @flessner/unocss-preset
 ```
-
 
 ```ts
 // unocss.config.ts
@@ -25,6 +24,5 @@ export default defineConfig({
 ```
 
 ## Features
-
 Out of the box it uses the `presetWind` from UnoCSS that includes TailwindCSS-style classes.
 Additionally it includes rules and shortcuts after my personal tastes.
