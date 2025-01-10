@@ -1,9 +1,9 @@
 {
-  "name": "@flessner/css",
-  "version": "0.2.2",
+  "name": "@flessner/unocss-preset",
+  "version": "0.1.0",
   "type": "module",
   "main": "./build/main.js",
-  "repository": "https://github.com/flessner/css",
+  "repository": "https://github.com/flessner/unocss-preset",
   "license": "MIT",
   "keywords": [
     "unocss",

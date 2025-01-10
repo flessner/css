@@ -1,5 +1,5 @@
-# @flessner/css
-![npm](https://img.shields.io/npm/v/%40flessner%2Fcss) ![license](https://img.shields.io/npm/l/%40flessner%2Fcss)
+# @flessner/unocss-preset
+![npm](https://img.shields.io/npm/v/%40flessner%2Funocss-preset) ![license](https://img.shields.io/npm/l/%40flessner%2Funocss-preset)
 
 <br />
 
@@ -8,14 +8,14 @@ It is mainly used by me to quickly scaffold new projects with my preferred atomi
 
 ## Installation
 ```
-npm i @flessner/css
+npm i @flessner/unocss-preset
 ```
 
 
 ```ts
 // unocss.config.ts
 import { defineConfig } from 'unocss'
-import { presetFlessner } from '@flessner/css'
+import { presetFlessner } from '@flessner/unocss-preset'
 
 export default defineConfig({
   presets: [
@@ -27,5 +27,4 @@ export default defineConfig({
 ## Features
 
 Out of the box it uses the `presetWind` from UnoCSS that includes TailwindCSS-style classes.
-
 Additionally it includes rules and shortcuts after my personal tastes.
